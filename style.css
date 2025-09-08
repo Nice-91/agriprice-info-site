@@ -117,7 +117,7 @@ nav {
   justify-content: space-between;
   padding: 60px 8%;
   flex-wrap: wrap;
-  padding-top: 140px;
+  padding-top: 140px !important;
 }
 .intro-text {
   max-width: 50%;
