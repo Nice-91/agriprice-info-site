@@ -73,6 +73,7 @@ margin-top: 20px;}
 
 .feature:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 
