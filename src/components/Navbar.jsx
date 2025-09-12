@@ -4,7 +4,6 @@ const Navbar = ({ openSignup, openLogin }) => {
   return (
     <nav>
       <div className="logo">
-        {/* <img src="/src/assets/images/logo.jpeg" alt="Logo" /> */}
         <img src="/images/logo.jpeg" alt="Logo" />
         <p className="logo-heading">AgriPrice/Abahinzihub</p>
       </div>
@@ -17,9 +16,8 @@ const Navbar = ({ openSignup, openLogin }) => {
           <li><a href="#landingpage">Home</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#footer">Contact</a></li>
-          
           <li><a href="#team">Team</a></li>
+          <li><a href="#footer">Contact</a></li>
 
         </ul>
         <div className="auth">
