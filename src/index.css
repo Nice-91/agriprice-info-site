@@ -225,6 +225,7 @@ nav {
   position: relative;
   color: #fff;
   text-align: center;
+  font-size: 50px;
 }
 
 .intro-hero::before {
@@ -263,6 +264,7 @@ nav {
   background: #f7c948;
   color: #222;
   font-weight: bold;
+  font-size: 30px;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
