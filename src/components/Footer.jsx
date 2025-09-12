@@ -32,7 +32,7 @@ const Footer = () => {
             <h3>Contact</h3>
             <ul>
               <li><i className="fa-solid fa-envelope"></i> info@agriprice.com</li>
-              <li><i className="fa-solid fa-phone"></i> +250 788 123 456</li>
+              <li><i className="fa-solid fa-phone"></i> +250 788 747861</li>
               <li><i className="fa-solid fa-location-dot"></i> Kigali, Rwanda</li>
             </ul>
           </div>
