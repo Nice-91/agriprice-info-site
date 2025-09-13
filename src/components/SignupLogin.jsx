@@ -46,7 +46,7 @@ const SignupLogin = ({ showSignup, showLogin, closeModals }) => {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch(`${API_URL}/auth/login/`, {
+      const res = await fetch(`${API_URL}/login/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
