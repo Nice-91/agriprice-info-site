@@ -19,7 +19,7 @@ const SignupLogin = ({ showSignup, showLogin, closeModals }) => {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch(`${API_URL}/register/`, {
+      const res = await fetch(`https://agriprice-backend.onrender.com/api/register/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,7 +46,7 @@ const SignupLogin = ({ showSignup, showLogin, closeModals }) => {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch(`${API_URL}/login/`, {
+      const res = await fetch(`https://agriprice-backend.onrender.com/api/login/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
