@@ -31,9 +31,9 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Contact</h3>
             <ul>
-              <li><i className="fa-solid fa-envelope"></i> info@agriprice.com</li>
-              <li><i className="fa-solid fa-phone"></i> +250 788 747861</li>
-              <li><i className="fa-solid fa-location-dot"></i> Kigali, Rwanda</li>
+              <li><a href=""><i className="fa-solid fa-envelope"></i> info@agriprice.com</a></li>
+              <li><a href=""><i className="fa-solid fa-phone"></i> +250 788 747861</a></li>
+              <li><a href=""><i className="fa-solid fa-location-dot"></i> Kigali, Rwanda</a></li>
             </ul>
           </div>
 
@@ -43,12 +43,12 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="https://wa.me/250788747861" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-whatsapp"></i> WhatsApp
+                <i className="fab fa-whatsapp-square"></i> WhatsApp
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/nice_ira_/" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-instagram"></i> Instagram
+                <i className="fab fa-instagram-square"></i> Instagram
                 </a>
               </li>
               <li>

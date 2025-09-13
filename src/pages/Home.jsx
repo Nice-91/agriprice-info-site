@@ -21,8 +21,8 @@ const Home = () => {
   ];
 
   const teamMembers = [
-    { image: "/images/nice.jpeg", name: "Nice Iradukunda", role: "Full-Stack Developer", bio: "Full-stack developer contributing to every layer of the AgriPrice app, from UI to database." },
-    { image: "/images/ruth.jpeg", name: "Ruth Nzikwikiza", role: "Full-Stack Developer", bio: "Hands-on full-stack developer, shaping AgriPrice’s app interface and server-side logic." },
+    { image: "/images/nice.jpeg", name: "Nice Iradukunda", role: "Full-Stack Developer", bio: "Full-stack developer contributing to every layer of the AgriPrice website, from UI to database." },
+    { image: "/images/ruth.jpeg", name: "Ruth Nzikwikiza", role: "Full-Stack Developer", bio: "Hands-on full-stack developer, shaping AgriPrice’s website interface and server-side logic." },
   ];
 
   return (
