@@ -5,7 +5,7 @@ const Navbar = ({ openSignup, openLogin }) => {
     <nav>
       <div className="logo">
         <img src="/images/logo.jpeg" alt="Logo" />
-        <p className="logo-heading">AgriPrice/Abahinzihub</p>
+        <p className="logo-heading">AgriPrice</p>
       </div>
 
       <input type="checkbox" id="menu-toggle" />
@@ -20,10 +20,6 @@ const Navbar = ({ openSignup, openLogin }) => {
           <li><a href="#footer">Contact</a></li>
 
         </ul>
-        <div className="auth">
-          <button className="signup" onClick={openSignup}>Sign Up</button>
-          <button className="login" onClick={openLogin}>Log In</button>
-        </div>
       </div>
     </nav>
   );
