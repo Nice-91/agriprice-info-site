@@ -153,6 +153,163 @@ nav {
     flex-direction: column;
     text-align: center;
   }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #fff;
+  color: #333;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  z-index: 10;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logo-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d7a39;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.nav-links li a:hover {
+  color: #2d7a39;
+}
+.auth {
+  display: flex;
+  gap: 10px;
+}
+.auth a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.auth a.signup {
+  color: #2d7a39;
+}
+.auth a.login {
+  background: #2d7a39;
+  color: #fff;
+}
+#menu-toggle {
+  display: none;
+}
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 8%;
+    width: 220px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 15px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .auth {
+    flex-direction: column;
+  }
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+  }
+  .menu-icon {
+    display: flex;
+  }
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  flex-wrap: wrap;
+}
+.intro-text {
+  max-width: 50%;
+}
+.intro-text h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+.intro-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #555;
+}
+.intro-text a {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #f7c948;
+  color: #222;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.intro-text a:hover {
+  background: #f1b928;
+}
+.intro-image {
+  max-width: 40%;
+}
+.intro-image img {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .intro-text {
     max-width: 100%;
     margin-bottom: 30px;
@@ -226,5 +383,4 @@ nav {
 }
 #signup:target,
 #login:target {
-  display: flex;
-}
+  display: flex;}
