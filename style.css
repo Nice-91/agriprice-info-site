@@ -94,7 +94,15 @@ nav {
     padding: 15px;
     gap: 15px;
   }
+
   .nav-links {
+  
+/*footer*/
+  .footer {
+    background-color: #2d7a39;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
     gap: 15px;
   }
@@ -153,6 +161,52 @@ nav {
     flex-direction: column;
     text-align: center;
   }
+  
+  @media screen and (max-width: 900px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .footer-links, .footer-contact {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .team-member img {
+      height: 200px;
+    }
+  
+    .about-hero h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .footer-about h3 {
+      font-size: 28px;
+    }
+  
+    .footer-about p {
+      font-size: 14px;
+    }
+  
+    .footer-links h4, .footer-contact h4 {
+      font-size: 18px;
+    }
+  
+    .footer-contact .footer-socials a {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+  }
 
 * {
   margin: 0;
@@ -164,6 +218,9 @@ body {
   background: #fff;
   color: #333;
 }
+.landingpage{
+    height: 100vh;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -173,6 +230,7 @@ nav {
   border-bottom: 1px solid #eee;
   position: relative;
   z-index: 10;
+
 }
 .logo {
   display: flex;
@@ -270,6 +328,7 @@ nav {
   justify-content: space-between;
   padding: 60px 8%;
   flex-wrap: wrap;
+  padding-top: 140px;
 }
 .intro-text {
   max-width: 50%;
@@ -384,3 +443,4 @@ nav {
 #signup:target,
 #login:target {
   display: flex;}
+}}

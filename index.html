@@ -5,10 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>AGRIPRICE</title>
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
 </head>
 <body>
-    <section class="features">
+  <div class="landingpage" id="landingpage">
+  <nav>
+    <div class="logo">
+    <img src="images/logo.jpeg">
+    <p class="logo-heading">AgriPrice/Abahinzihub</p>
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <div class="menu">
+    <ul class="nav-links">
+    <li><a href="#landingpage">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#about-page">About</a></li>
+    <li><a href="#footer">Contact</a></li>
+    </ul>
+    <div class="auth">
+    <a href="#signup" class="signup">Sign Up</a>
+    <a href="#login" class="login">Log in</a>
+    </div>
+    </div>
+    </nav>
+    <section class="intro">
+    <div class="intro-text">
+    <h1>Track Daily Crop Prices in Your Market</h1>
+    <p>Get informed about the current crop prices at different markets across Rwanda.</p>
+    <a href="#features">Get Started</a>
+    </div>
+    <div class="intro-image">
+    <img src="images/farmer.jpeg" alt="Farmer Illustration">
+    </div>
+    </section>
+    <div id="signup" class="link">
+    <div class="link-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Sign Up</h2>
+    <form>
+    <input type="text" placeholder="Username" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Sign Up</button>
+    </form>
+    </div>
+    </div>
+    <div id="login" class="link">
+    <div class="link-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Log In</h2>
+    <form>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Log In</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    <section class="features" id="features">
         <div class="container">
           <h2 class="section-title">Platform Features</h2>
           <p class="section-subtitle">Powerful tools to connect farmers and buyers across Rwanda</p>
@@ -55,7 +111,7 @@
       </section>
 
      <!--about us-->
-      <section class="about-page">
+      <section class="about-page" id="about-page"> 
         <div class="containerr">
           <h1>About Us</h1>
           <p>AgriPrice (AbahinziHub) connects farmers and buyers across Rwanda so that everyone can trade fairly and confidently. Through our platform, users can post products, compare prices, and contact sellers directly—all in one convenient place.</p>
@@ -100,7 +156,7 @@
 
 
       <!--footer-->
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer-about">
           <h3>AgriPrice / AbahinziHub</h3>
           <p>Your trusted platform for agricultural product prices. Connecting farmers and buyers seamlessly.</p>
@@ -109,13 +165,13 @@
         <div class="footer-container">
           <div class="footer-contact">
             <h4>Contact Us</h4>
-            <p>Email: ruthnzikwikiza7</p>
+            <p>Email: ruthnzikwikiza7@gmail.com</p>
             <p>Phone: +250 788 747861</p>
             <div class="footer-socials">
               <a href="https://wa.me/250788747861" target="_blank" aria-label="WhatsApp">
                 <i class="fa-brands fa-whatsapp"></i>
               </a>
-              <a href="https://www.instagram.com/nice_ira_/" target="_blank" aria-label="Instagram">
+              <a href="https://www.instagram.com/__iamlessy" target="_blank" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
               </a>
               <a href="https://www.linkedin.com/in/nice-iradukunda-192036353/" target="_blank" aria-label="LinkedIn">
@@ -127,9 +183,9 @@
           <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">feature</a></li>
-              <li><a href="#">about us</a></li>
+              <li><a href="#landingpage">Home</a></li>
+              <li><a href="#features">feature</a></li>
+              <li><a href="#about-page">about us</a></li>
             </ul>
           </div>
         </div>
@@ -141,6 +197,6 @@
       
       
       
-      
+   <script src="script.js"   ></script>
 </body>
 </html>
