@@ -31,7 +31,7 @@ const Home = () => {
       <section className="features">
         <div className="container">
           <h2 className="section-title">Platform Features</h2>
-          <p className="section-subtitle">Powerful tools to connect farmers and buyers across Rwanda</p>
+          <p className="section-subtitle">Our platform streamlines agricultural trade by providing real-time market prices, secure transactions, and simple communication tools, making it easier for farmers and buyers across Rwanda to connect and grow their businesses.</p>
           <div className="features-grid">
             {features.map((feature, idx) => (
               <FeatureCard key={idx} {...feature} />
@@ -44,7 +44,7 @@ const Home = () => {
       <section className="about-page">
         <div className="containerr">
           <h1>About Us</h1>
-          <p>AgriPrice (AbahinziHub) connects farmers and buyers across Rwanda so that everyone can trade fairly and confidently. Through our platform, users can post products, compare prices, and contact sellers directly—all in one convenient place.</p>
+          <p> Powerful tools to connect farmers and buyers across Rwanda.</p>
         </div>
       </section>
 

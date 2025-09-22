@@ -4,9 +4,11 @@ const TeamMember = ({ image, name, role, bio }) => {
   return (
     <div className="team-member">
       <img src={image} alt={name} />
-      <h3>{name}</h3>
-      <p>{role}</p>
-      <p>{bio}</p>
+      <div className="team-member-info">
+        <h3>{name}</h3>
+        <p className="role">{role}</p>
+        <p className="bio">{bio}</p>
+      </div>
     </div>
   );
 };
