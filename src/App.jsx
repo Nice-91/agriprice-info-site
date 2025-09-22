@@ -1,7 +1,10 @@
+
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import SignupLogin from "./components/SignupLogin";
+import Home from "./pages/Home";
+import "./styles/main.css";
 
 function App() {
   const [showSignup, setShowSignup] = useState(false);
@@ -31,8 +34,11 @@ function App() {
         showLogin={showLogin}
         closeModals={closeModals}
       />
+      <Home />;
+      features-react
     </>
-  );
-}
+  );}
+
+
 
 export default App;
