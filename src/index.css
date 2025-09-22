@@ -1,23 +1,21 @@
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
   background: #fff;
   color: #333;
   scroll-behavior: smooth;
-  font-family: 'Robot','sans-serif';
 }
 
+/*Navbar  */
 nav {
   display: flex;
   justify-content: space-between;
@@ -132,10 +130,6 @@ nav {
     flex-direction: column;
   }
 
-  #menu-toggle {
-    display: none;
-  }
-
   #menu-toggle:checked ~ .menu {
     display: flex;
   }
@@ -145,6 +139,7 @@ nav {
   }
 }
 
+/* Links  */
 .link {
   display: flex;
   justify-content: center;
@@ -218,9 +213,10 @@ nav {
   color: #2d7a39;
 }
 
+/*  Intro Hero */
 .intro-hero {
   height: 100vh;
-  background: url("/src/assets/images/farmer.jpeg") no-repeat top center; /* fixed head issue */
+  background: url("/src/assets/images/farmer.jpeg") no-repeat top center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -282,37 +278,15 @@ nav {
 
   .intro-hero-text p {
     font-size: 1rem;
-  }}
+  }
+}
+
+*
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -331,9 +305,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -344,11 +320,12 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
-
   }
 }

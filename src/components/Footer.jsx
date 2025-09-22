@@ -19,7 +19,7 @@ const Footer = () => {
               <li><a href="/home"><i class="fa-solid fa-house"></i>Home</a></li>
               <li><a href="/team"><i className="fa-solid fa-users"></i> Team</a></li>
               <li><a href="/features"><i className="fa-solid fa-cogs"></i> Features</a></li>
-              <li><a href="/about"><i className="fa-solid fa-circle-info"></i> About Us</a></li>
+              <li><a href="/AboutCard.jsx"><i className="fa-solid fa-circle-info"></i> About Us</a></li>
               
             </ul>
           </div>
