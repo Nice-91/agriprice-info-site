@@ -34,8 +34,7 @@ function App() {
         showLogin={showLogin}
         closeModals={closeModals}
       />
-      <Home />;
-      features-react
+      <Home />
     </>
   );}
 
