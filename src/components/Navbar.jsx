@@ -4,7 +4,8 @@ const Navbar = ({ openSignup, openLogin }) => {
   return (
     <nav>
       <div className="logo">
-        <img src="/src/assets/images/logo.jpeg" alt="Logo" />
+        {/* <img src="/src/assets/images/logo.jpeg" alt="Logo" /> */}
+        <img src="/images/logo.jpeg" alt="Logo" />
         <p className="logo-heading">AgriPrice/Abahinzihub</p>
       </div>
 
