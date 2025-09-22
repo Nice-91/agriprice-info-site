@@ -15,8 +15,11 @@ const Navbar = ({ openSignup, openLogin }) => {
         <ul className="nav-links">
           <li><a href="#landingpage">Home</a></li>
           <li><a href="#features">Features</a></li>
-          <li><a href="#about-page">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#footer">Contact</a></li>
+          
+          <li><a href="#team">Team</a></li>
+
         </ul>
         <div className="auth">
           <button className="signup" onClick={openSignup}>Sign Up</button>
