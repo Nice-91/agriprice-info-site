@@ -28,10 +28,10 @@ const Home = () => {
   return (
     <div>
       {/* Features Section */}
-      <section className="features">
+      <section id="features" className="features">
         <div className="container">
           <h2 className="section-title">Platform Features</h2>
-          <p className="section-subtitle">Our platform streamlines agricultural trade by providing real-time market prices, secure transactions, and simple communication tools, making it easier for farmers and buyers across Rwanda to connect and grow their businesses.</p>
+          <p className="section-subtitle">Our platform streamlines agricultural trade by providing real-time market prices, secure transactions, and simple communication tools,<br /> making it easier for farmers and buyers across Rwanda to  connect and grow their businesses.</p>
           <div className="features-grid">
             {features.map((feature, idx) => (
               <FeatureCard key={idx} {...feature} />
@@ -41,7 +41,7 @@ const Home = () => {
       </section>
 
       {/* About Us */}
-      <section className="about-page">
+      <section id="about" className="about-page">
         <div className="containerr">
           <h1>About Us</h1>
           <p> Powerful tools to connect farmers and buyers across Rwanda.</p>
@@ -56,7 +56,7 @@ const Home = () => {
       </section>
 
       {/* Team Section */}
-      <section className="team">
+      <section id="team" className="team">
         <h2>Meet the Team</h2>
         <div className="team-grid">
           {teamMembers.map((member, idx) => (
