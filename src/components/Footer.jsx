@@ -43,12 +43,12 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="https://wa.me/250788747861" target="_blank" rel="noreferrer">
-                <i class="fab fa-whatsapp-square"></i> WhatsApp
+                <i className="fab fa-whatsapp-square"></i> WhatsApp
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/nice_ira_/" target="_blank" rel="noreferrer">
-                <i class="fab fa-instagram-square"></i> Instagram
+                <i classname="fab fa-instagram-square"></i> Instagram
                 </a>
               </li>
               <li>
