@@ -388,18 +388,12 @@ margin-bottom: 10px;}
 .footer-column ul li a {
   color: #fff;
   text-decoration: none;
-  transition: opacity 0.3s ease;
   font-family: 'roboto';
  display: flex;
  margin-left: 150px;
 }
 
 
-.footer-column ul li i{
-  font-family: 'roboto';
-   align-items:flex;
-  color: re;
-}
 
 .footer-column ul li a:hover {
   opacity: 0.8;

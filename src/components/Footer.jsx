@@ -48,7 +48,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://www.instagram.com/nice_ira_/" target="_blank" rel="noreferrer">
-                <i classname="fab fa-instagram-square"></i> Instagram
+                <i className="fab fa-instagram-square"></i> Instagram
                 </a>
               </li>
               <li>
