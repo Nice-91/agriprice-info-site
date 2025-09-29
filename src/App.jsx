@@ -1,43 +1,14 @@
-
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import SignupLogin from "./components/SignupLogin";
 import Home from "./pages/Home";
 import "./styles/main.css";
-
 function App() {
-  const [showSignup, setShowSignup] = useState(false);
-  const [showLogin, setShowLogin] = useState(false);
-
-  const openSignup = () => {
-    setShowSignup(true);
-    setShowLogin(false);
-  };
-
-  const openLogin = () => {
-    setShowLogin(true);
-    setShowSignup(false);
-  };
-
-  const closeModals = () => {
-    setShowSignup(false);
-    setShowLogin(false);
-  };
-
   return (
     <>
-      <Navbar openSignup={openSignup} openLogin={openLogin} />
+      <Navbar />
       <Intro />
-      <SignupLogin
-        showSignup={showSignup}
-        showLogin={showLogin}
-        closeModals={closeModals}
-      />
       <Home />
     </>
   );}
-
-
-
 export default App;
