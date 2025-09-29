@@ -60,7 +60,8 @@ const Footer = () => {
           </div>
           </div>
           <div className="end">
-          <p >Bridging farmers and buyers with fair pricing, real-time market information, trusted <br /> connections, practical farming insights, innovative tools, and opportunities for <br />sustainable growth and thriving communities.</p>
+          <p >AgriPrice is the name of our platform, while "Abahinzi Hub" is our slogan, <br />reflecting our mission to empower farmers with the right price information.
+          </p>
          </div>
       </div>
 
